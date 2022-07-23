@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    color: #299c42;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+
+
+  }
+
+  section {
+    padding: 100px;
+  }
+  
