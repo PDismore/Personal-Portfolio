@@ -18,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    
   }
 
   header nav ul {
@@ -32,11 +31,13 @@
 
   header nav ul li a {
     padding: 10px 15px;
-
-
   }
 
   section {
     padding: 100px;
+  }
+
+  section h2 {
+    color: goldenrod;
   }
   
