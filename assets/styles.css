@@ -6,18 +6,23 @@
   body {
     color: #299c42;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(6, 77, 117);
   }
 
+/* Header Styling */
   header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: black;
+    color: rgb(120, 231, 231);
   }
 
   header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    color: rgb(120, 231, 231);
   }
 
   header nav ul {
@@ -28,16 +33,27 @@
     list-style: none;
     margin: 10px;
   }
+/* End Header */
 
   header nav ul li a {
     padding: 10px 15px;
   }
-
+/* General Section styles */
   section {
     padding: 100px;
+    border-color: black;
   }
 
   section h2 {
     color: goldenrod;
   }
-  
+  /* Ende general */
+
+/* About Me stlyes */
+.about-me {
+  color: black;
+  border-style: solid;
+  border:10 10 10 10;
+  border-color: black;
+
+}
