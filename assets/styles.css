@@ -40,8 +40,10 @@
   }
 /* General Section styles */
   section {
+    margin: 15px 15px 15px 15px;
     padding: 100px;
     border-color: black;
+    border-style: solid;
   }
 
   section h2 {
